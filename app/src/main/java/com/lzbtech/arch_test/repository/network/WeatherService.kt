@@ -5,6 +5,6 @@ import retrofit2.http.GET
 
 interface WeatherService {
 
-    @GET("/v3/weather/weatherInfo?city=110101&key=cb03913191c73dff53cf6e1c94e41c97")
+    @GET("/v3/weather/weatherInfo?city=110101&key=<替换成高德的key就好了>")
     suspend fun getWeather(): DailyWeatherResponse
 }
